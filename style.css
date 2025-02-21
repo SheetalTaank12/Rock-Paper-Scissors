@@ -1,0 +1,99 @@
+*{
+    
+
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+h1{
+    display: inline-block;
+    background-color: rgb(1, 1, 58);
+    color: white;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 6px 5px 5px  rgb(90, 90, 89);
+}
+/* .userchoice{
+    border: 5px solid black;
+} */
+#rock{
+    border: 2px solid black;
+    padding: 9px;
+    border-radius: 80px;
+    margin-right: 10px;
+}
+#rock:hover{
+    background-color: black;
+    
+}
+#rock:active{
+    background-color: yellow;
+    border-color: yellow;
+}
+#paper{
+    border: 2px solid black;
+    padding: 9px;
+    border-radius: 80px;
+    margin-right: 10px;
+
+}
+#paper:hover{
+    background-color: black;
+    
+}
+#paper:active{
+    background-color: yellow;
+    border-color: yellow;
+}
+#scissors{
+    border: 2px solid black;
+    padding: 9px;
+    border-radius: 80px;
+}
+#scissors:hover{
+    background-color: black;
+}
+#scissors:active{
+    background-color: yellow;
+    border-color: yellow;
+}
+
+#crock{
+    border: 2px solid black;
+    padding: 9px;
+    border-radius: 80px;
+    margin-right: 10px;
+}
+#cpaper{
+    border: 2px solid black;
+    padding: 9px;
+    border-radius: 80px;
+    margin-right: 10px;
+
+}
+#csci{
+    border: 2px solid black;
+    padding: 9px;
+    border-radius: 80px;
+}
+.score{
+    display: inline-block;
+    border: 2px solid black;
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 65);
+}
+#msg{
+    display: inline;
+    background-color: rgb(1, 1, 58);
+    color: white;
+    padding: 0.3rem;
+   font-size: 1.8rem;
+    border-radius: 0.5rem;
+}
+.msg-container{
+    margin-top: 10px;
+}

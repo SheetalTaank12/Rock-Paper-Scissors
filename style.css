@@ -97,3 +97,61 @@ h1{
 .msg-container{
     margin-top: 10px;
 }
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+        padding: 10px;
+    }
+    
+    .userchoice, .compchoice {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .userchoice img, .compchoice img {
+        width: 80px; /* Adjust image size for smaller screens */
+        height: 80px;
+        padding: 5px;
+        margin: 5px;
+    }
+    
+    .score h3 {
+        font-size: 1.2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    #msg {
+        font-size: 1.2rem;
+        padding: 0.5rem;
+    }
+    
+    .msg-container {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.2rem;
+    }
+    
+    .userchoice img, .compchoice img {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .score h3 {
+        font-size: 1rem;
+    }
+    
+    #msg {
+        font-size: 1rem;
+    }
+}
